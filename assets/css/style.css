@@ -149,6 +149,11 @@ body {
         width: 296px;
         height: 300px;
     }
+
+    .formulario__input {
+        width: 240px;
+    }
+
     .logo--footer {
         margin-right: 0px;
         width: 280px;
