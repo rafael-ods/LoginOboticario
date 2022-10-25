@@ -105,17 +105,52 @@ body {
 }
 
 
-@media screen and (max-width: 414px) {
-    body {
-        background-image: url(../img/body360px.jpg);
-    }
+
+
+@media screen and (max-width:425px) {
     .container__formulario {
         width: 316px;
         height: 300px;
     }
 
     .logo--footer {
-        margin-right: 65px;
+        width: 325px;
+    }
+}
+
+
+@media screen and (max-width: 414px) {
+    body {
+        background-image: url(../img/body360px.jpg);
     }
 
+    .container__formulario {
+        width: 316px;
+        height: 300px;
+    }
+
+    .logo--footer {
+        margin-right: 0px;
+    }
+
+}
+
+
+@media screen and (max-width:375px) {
+    .logo--footer {
+        margin-right: 25px;
+    }
+}
+
+
+
+@media screen and (max-width:320px) {
+    .container__formulario {
+        width: 296px;
+        height: 300px;
+    }
+    .logo--footer {
+        margin-right: 0px;
+        width: 280px;
+    }
 }
